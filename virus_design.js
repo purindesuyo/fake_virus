@@ -35,6 +35,8 @@ $(function(){
         time--;
         $('#timer').text(time);
     },  1000)
+    if ('timer').text 0
+    time = 200
     
     
 });
