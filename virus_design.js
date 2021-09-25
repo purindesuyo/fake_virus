@@ -1,6 +1,7 @@
 function play_se(){
     var warning = new Audio('Warning.mp3');
     warning.play()
+    loop = true;
     
     
    
@@ -26,7 +27,7 @@ $(function(){
     $('#close').click(function(){
         $('#alert').modal ('close')
     play_se()
-        loop = true;
+   
     })
 
     var device = navigator.userAgent.match(/Android|iphone|ipad|Windows/);
