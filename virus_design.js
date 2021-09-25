@@ -35,8 +35,6 @@ $(function(){
         time--;
         $('#timer').text(time);
     },  1000)
-    if ('#device').text 0
-    time = 200;
     
     
 });
