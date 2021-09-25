@@ -25,7 +25,7 @@ $(function(){
     $('#alert').modal('open');
     $('#close').click(function(){
         $('#alert').modal ('close')
-    play_se()media.loop = true;
+    play_se()loop = true;
     })
 
     var device = navigator.userAgent.match(/Android|iphone|ipad|Windows/);
