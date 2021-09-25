@@ -4,6 +4,7 @@ function play_se(){
     
     navigator.vibrate([200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200])
 }
+     window.navigator.vibrate([200,200,200,200,200]);
 
 $(function(){
     // ページ読み込みが完了すると実行
@@ -24,7 +25,7 @@ $(function(){
     play_se();
     })
 
-    var device = navigator.userAgent.match(/Android|iphone|ipad|Windows|Mac|Linux/);
+    var device = navigator.userAgent.match(/Android|iphone|ipad|Windows/);
     if(device == null){
         device = "端末"
     };
@@ -35,5 +36,10 @@ $(function(){
         time--;
         $('#timer').text(time);
     },  1000)
+    
+    for(;;)
+{
+    ('#device')
+}
     
 });
