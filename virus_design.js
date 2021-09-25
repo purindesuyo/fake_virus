@@ -2,12 +2,8 @@ function play_se(){
     var warning = new Audio('Warning.mp3');
     warning.play()
     
-    
-   
-    
     navigator.vibrate([200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200])
 }
-     window.navigator.vibrate([200,200,200,200,200]);
 
 $(function(){
     // ページ読み込みが完了すると実行
@@ -25,11 +21,10 @@ $(function(){
     $('#alert').modal('open');
     $('#close').click(function(){
         $('#alert').modal ('close')
-    play_se()
-   
+    play_se();
     })
 
-    var device = navigator.userAgent.match(/Android|iphone|ipad|Windows/);
+    var device = navigator.userAgent.match(/Android|iphone|ipad|Windows|Mac|Linux/);
     if(device == null){
         device = "端末"
     };
@@ -40,10 +35,8 @@ $(function(){
         time--;
         $('#timer').text(time);
     },  1000)
+    if ('#device').text 0
+    time = 200;
     
-    for(;;)
-{
-    ('#device')
-}
     
 });
