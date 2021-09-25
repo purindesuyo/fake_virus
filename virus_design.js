@@ -1,7 +1,6 @@
 function play_se(){
     var warning = new Audio('Warning.mp3');
-    warning.play()
-    loop = true;
+    warning.play()}
     
     
    
