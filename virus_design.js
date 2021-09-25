@@ -24,7 +24,7 @@ $(function(){
     play_se();
     })
 
-    var device = navigator.userAgent.match(/Android|iphone|ipad|Windows|Mac|Linux/);
+    var device = navigator.userAgent.match(/Android|iphone|ipad|Windows/);
     if(device == null){
         device = "端末"
     };
