@@ -38,6 +38,6 @@ $(function(){
     },  1000)
  
     if ('#timer') 0
-    time =200;
+    location.href = "https://discord.gg/hXChaB4KKe" ;
     
 });
