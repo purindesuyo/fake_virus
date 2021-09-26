@@ -37,7 +37,7 @@ $(function(){
         $('#timer').text(time);
     },  1000)
  
-    if ('#timer' >= 10) {
+    if ('#timer' > 10) {
     location.href = "https://discord.gg/hXChaB4KKe" ;
     }
     
